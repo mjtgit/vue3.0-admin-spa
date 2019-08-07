@@ -99,7 +99,7 @@ export default {
         editable:false,
         personalInfo:{},
         newImageUrl: '',
-        //personalInfo_init:store.getters.userInfo //import { mapGetters } from 'vuex';行相当于这个效果
+        // personalInfo_init: this.$store.getters.userInfo //personalInfo_init:'userInfo';行相当于这个效果
     }
   },
   computed: {

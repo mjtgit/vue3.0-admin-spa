@@ -1,4 +1,5 @@
 <template>
+  <!-- 富文本编辑器 -->
   <div class="components-container">
     <div>
       <Tinymce :height=200 ref="editor" v-model="content"></Tinymce>
