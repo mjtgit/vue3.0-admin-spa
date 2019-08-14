@@ -2,8 +2,7 @@ import Axios from 'axios'
 import { Message,Loading } from 'element-ui';
 // import Qs from 'qs'
 // import App from 'common/app'
-// let host = '//merchant.octinn.com/api'
-let host = '//localhost:5000'
+let host = process.env.NODE_ENV === "development" ? '//localhost:5000' : '正'
 
 var loadingInstance,isShowLading
 

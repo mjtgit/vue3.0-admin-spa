@@ -26,7 +26,8 @@ Vue.use(vueWaves);
 Vue.config.productionTip = false
 
 // 打印当前所处的环境
-console.log(`当前所处的环境------->${process.env.VUE_APP_URL}`);
+console.log(`当前所处的环境------->${process.env.NODE_ENV}`);
+console.log(`当前使用的接口------->${process.env.VUE_APP_URL}`);
 
 // register global utility filters.
 Object.keys(filters).forEach(key => {
